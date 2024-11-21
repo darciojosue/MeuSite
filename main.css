@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(34, 34, 34);
+}
+
+body > header {
+    padding: 16px 0;
+    color: #f5f6fa;
+    background: rgb(20, 20, 20);
+}
+
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    font-family: 'Bebas Neus', sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    color: #ecf0f1;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header li a {
+    text-decoration: none;
+    color: white;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.poster {
+    height: 400px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+h3 {
+    color: gold;
+}
+
+span {
+    color: rgb(18, 189, 61);
+}
+
+#action:hover,
+#drama:hover,
+#animation:hover,
+#contact:hover {
+    background-color: rgb(20, 20, 20);
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button:hover {
+    background-color: #303030;
+}
